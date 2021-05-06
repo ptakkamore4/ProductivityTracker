@@ -5,7 +5,7 @@
 	margin: 0;
 	padding: 0;
     font-family: 'Montserrat', sans-serif;
-     background-color: burlywood;
+     background-color: darkgray;
 }
 #routine{
     margin-top: 10%;
@@ -16,7 +16,7 @@
     font-size: medium;
 }
 p {
-    text-align: center;
+    text-align: left;
     color: black;
     list-style-position: outside ;
 }
