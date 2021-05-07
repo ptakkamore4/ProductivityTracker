@@ -26,7 +26,7 @@ app.set('views', path.join(__dirname, 'views'));
 app.use(express.static(path.join(__dirname, 'public')));
 
 const store = new MongodbSession({
-  uri: 'mongodb+srv://ptakkamore4:mongodb@124@cluster0.ece8f.mongodb.net/Tracker?retryWrites=true&w=majority',
+  uri: 'mongodb+srv://palak123:palak123@cluster0.ece8f.mongodb.net/Tracker?retryWrites=true&w=majority',
   collestion: 'sessions'
 })
 
