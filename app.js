@@ -12,8 +12,6 @@ const nodemailer = require('nodemailer')
 var sha256 = require('js-sha256')
 const MongodbSession = require('connect-mongodb-session')(session)
 
-// const mongodb_uri = 'mongodb+srv://voidrohit:Rks&18158920@cluster0.oiqtt.mongodb.net/Tracker?retryWrites=true&w=majority'
-
 const app = express()
 const port = process.env.PORT || 3030
 
@@ -28,7 +26,7 @@ app.set('views', path.join(__dirname, 'views'));
 app.use(express.static(path.join(__dirname, 'public')));
 
 const store = new MongodbSession({
-  uri: 'mongodb+srv://voidrohit:Rks&18158920@cluster0.oiqtt.mongodb.net/Tracker?retryWrites=true&w=majority',
+  uri: 'mongodb+srv://ptakkamore4:mongodb@124@cluster0.ece8f.mongodb.net/Tracker?retryWrites=true&w=majority',
   collestion: 'sessions'
 })
 
