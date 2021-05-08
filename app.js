@@ -82,13 +82,13 @@ app.post('/users', (req, res) => {
                       let transporter = nodemailer.createTransport({
                           service: 'gmail',
                           auth: {
-                              user: 'kabirsinghnitp@gmail.com' ,    // Sender email
-                              pass: 'Rks&18158920'  // Sender password
+                              user: 'productivitytracker101@gmail.com' ,    // Sender email
+                              pass: 'Project&101'  // Sender password
                           }
                       });
                       
                       let mailOptions = {
-                          from: 'kabirsinghnitp@gmail.com',
+                          from: 'productivitytracker101@gmail.com',
                           to: email,
                           subject: 'Test',
                           text: `Please click on the link provided to activate the account http://localhost:3030/users/${email}/${validation_code}/${id}`
